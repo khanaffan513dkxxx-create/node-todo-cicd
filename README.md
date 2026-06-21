@@ -1,19 +1,25 @@
-# node-todo-cicd
+# AWS DevOps Deployment Project
 
-Run these commands:
+## Overview
 
+This project demonstrates deployment of a containerized web application on AWS.
 
-`sudo apt install nodejs`
+## AWS Services Used
 
+* Amazon EC2
+* Amazon ECS
+* Amazon ECR
+* IAM
+* CloudWatch
+* Docker
+* GitHub
 
-`sudo apt install npm`
+## Deployment Flow
 
+GitHub → EC2 → Docker → ECR → ECS → CloudWatch
 
-`npm install`
+## Outcome
 
-`node app.js`
+Successfully deployed the application on AWS and made it publicly accessible.
 
-or Run by docker compose
-
-test
 
